@@ -25,7 +25,7 @@ body{
 	word-wrap: break-word;
 	font-weight: 400;
 	background-color: #fff;
-	color: #777;
+	color: #aab1b8;
 }
 .awilo_fn_svg{
 	fill: currentcolor;
@@ -51,7 +51,7 @@ body{
 /*	02) Start
 /*---------------------------------------------------*/
 body{
-	background-color: #0e0e0f;
+	background-color: #000000;
 }
 .awilo_fn_content{
 	width: 100%;
@@ -73,7 +73,6 @@ body{
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -90,7 +89,7 @@ a.awilo_fn_circle_link:after{
     position: absolute;
     bottom: -2px;
     left: 100%;
-    background-color: #ae45ff;
+    background-color: #efc152;
 	
 	-webkit-transition: left .5s ease,width .5s ease;
 	   -moz-transition: left .5s ease,width .5s ease;
@@ -218,7 +217,7 @@ a.awilo_fn_circle_link:hover:after{
     transition: all .3s ease;
 }
 .awilo_fn_sidebar_header .menu_nav ul.vert_nav li > a:hover{
-	color: #ae45ff;
+	color: #efc152;
 }
 .awilo_fn_sidebar_header .menu_nav ul.vert_nav li > a:before{
 	position: absolute;
@@ -292,7 +291,7 @@ a.awilo_fn_circle_link:hover:after{
 	text-align: center;
 }
 .awilo_fn_sidebar_header .social_list ul li a:hover{
-	color: #ae45ff;
+	color: #efc152;
 }
 /*---------------------------------------------------*/
 /*	00) HEADER
@@ -318,7 +317,8 @@ a.awilo_fn_circle_link:hover:after{
 /*---------------------------------------------------*/
 .hamburger {
 	padding: 0;
-	display: inline-block;
+	/* display: inline-block; */
+	display:none;
 	cursor: pointer;
 	transition-property: opacity, filter;
 	transition-duration: 0.15s;
@@ -449,11 +449,11 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_about .about_left h5{
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
-	color: #ae45ff;
+	font-size: 1.5rem;
+	color: #aab1b8;
 	letter-spacing: 0;
 	font-family: 'Muli';
-	font-weight: 400;
+	font-weight: 600;
 	margin-bottom: 20px;
 }
 .awilo_fn_about .about_left h3{
@@ -461,7 +461,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding: 0;
 	font-size: 72px;
 	line-height: 80px;
-	color: #ae45ff;
+	color: #efc152;
 	letter-spacing: -0.25px;
 	font-family: 'Rubik';
 	font-weight: 400;
@@ -475,7 +475,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding: 0;
 	font-size: 22px;
 	line-height: 30px;
-	color: #777;
+	color: #aab1b8;
 	font-family: 'Muli';
 }
 .awilo_fn_about .about_left .about_desc{
@@ -492,7 +492,7 @@ a.awilo_fn_circle_link:hover:after{
 	float: left;
 	font-family: 'Muli';
 	text-decoration: none;
-	color: #ae45ff;
+	color: #efc152;
 	font-size: 16px;
 	border-radius: 2px;
 	max-width: 100%;
@@ -512,7 +512,7 @@ a.awilo_fn_circle_link:hover:after{
 	transition: all .4s ease;
 	float: left;
 	padding: 0 37px;
-	border: 2px solid #ae45ff;
+	border: 2px solid #efc152;
 }
 .awilo_fn_wrapper .awilo_fn_main_button span:nth-child(1){
 	transition: all .4s .2s ease;
@@ -549,7 +549,7 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_about .about_social ul li:after{
 	width: 19px;
 	height: 1px;
-	background-color: #ccc;
+	background-color: #aab1b8;
 	position: absolute;
 	left: 100%;
 	margin-left: 9px;
@@ -564,7 +564,7 @@ a.awilo_fn_circle_link:hover:after{
 }
 .awilo_fn_about .about_social a{
 	text-decoration: none;
-	color: #ccc;
+	color: #aab1b8;
 	font-size: 18px;
 	line-height: 24px;
 	font-family: 'Muli';
@@ -572,11 +572,12 @@ a.awilo_fn_circle_link:hover:after{
 	transition: all .3s ease;
 }
 .awilo_fn_about .about_social a:hover{
-	color: #ae45ff;
+	color: #efc152;
 }
 .awilo_fn_about .about_right{
 	width: 50%;
 	position: relative;
+	margin: 0 auto;
 }
 .awilo_fn_about .about_right img{
 	opacity: 0;
@@ -609,7 +610,7 @@ a.awilo_fn_circle_link:hover:after{
 	width: 30%;
 	top: 0;
 	left: 0;
-	background-color: #1e1427;
+	background-color: #000000;
 	bottom: 0;
 }
 .awilo_fn_about .about_right .about_border:before{
@@ -618,7 +619,7 @@ a.awilo_fn_circle_link:hover:after{
 	width: 30%;
 	top: 0;
 	right: 0;
-	background-color: #1e1427;
+	background-color: #000000;
 	bottom: 0;
 }
 #about{
@@ -648,7 +649,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding: 0;
 	font-family: 'Muli';
 	font-size: 18px;
-	color: #ae45ff;
+	color: #efc152;
 	letter-spacing: 0;
 	margin-bottom: 20px;
 	font-weight: 400;
@@ -753,7 +754,7 @@ a.awilo_fn_circle_link:hover:after{
 	letter-spacing: 0;
 	margin: 0;
 	padding: 0;
-	color: #777;
+	color: #aab1b8;
 	font-family: 'Muli';
 	margin-bottom: 27px;
 }
@@ -761,7 +762,7 @@ a.awilo_fn_circle_link:hover:after{
 	display: block;
 	float: left;
 	font-size: 16px;
-	color: #ae45ff;
+	color: #efc152;
 	line-height: 24px;
 	text-decoration: none;
 }
@@ -830,13 +831,13 @@ a.awilo_fn_circle_link:hover:after{
 	float: left;
 }
 .awilo_fn_skills .s_list .sl_item .text{
-	color: #777;
+	color: #aab1b8;
 }
 .awilo_fn_skills .s_list .sl_item label:after{
 	content: '';
     width: 20px;
     height: 1px;
-    background-color: #ae45ff;
+    background-color: #efc152;
     position: absolute;
     top: 50%;
     left: 100%;
@@ -979,7 +980,7 @@ a.awilo_fn_circle_link:hover:after{
 	transition: all .3s ease;
 }
 .awilo_fn_portfolio_grid .list_item .title_holder h3 a:hover{
-	color: #ae45ff;
+	color: #efc152;
 }
 .awilo_fn_portfolio_grid ul li.tmwide50 .list_item .title_holder h3,
 .awilo_fn_portfolio_grid ul li.tmwide66 .list_item .title_holder h3,
@@ -1004,7 +1005,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding: 0;
 	font-size: 22px;
 	line-height: 30px;
-	color: #777;
+	color: #aab1b8;
 	letter-spacing: 0;
 }
 .awilo_fn_contactme p.text{
@@ -1053,7 +1054,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding-right: 10px;
 	font-size: 18px;
 	letter-spacing: 0;
-	color: #777;
+	color: #aab1b8;
 }
 .awilo_fn_experience .e_list .e_item span.e_item_b{
 	color: #eee;
@@ -1126,7 +1127,7 @@ a.awilo_fn_circle_link:hover:after{
 	bottom: 14px;
 	left: 50%;
 	margin-left: -14px;
-	color: #ae45ff;
+	color: #efc152;
 }
 .awilo_fn_reviews .r_item .r_review{
 	margin-bottom: 32px;
@@ -1182,7 +1183,7 @@ a.awilo_fn_circle_link:hover:after{
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	color: #777;
+	color: #aab1b8;
 	letter-spacing: 0;
 	font-family: 'Muli';
 	font-weight: 400;
@@ -1237,7 +1238,7 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_swiper_progress .pagination_progress .all span{
 	height: 1px;
 	width: 100%;
-	background-color: #777;
+	background-color: #aab1b8;
 	position: absolute;
 	z-index: 5;
 	top: 0;
@@ -1346,7 +1347,7 @@ a.awilo_fn_circle_link:hover:after{
 	font-size: 30px;
 	letter-spacing: 0;
 	margin: 0;
-	color: #ae45ff;
+	color: #efc152;
 	font-weight: 400;
 	position: absolute;
 	left: 0;
@@ -1421,7 +1422,7 @@ a.awilo_fn_circle_link:hover:after{
 	font-size: 18px;
 	letter-spacing: 0;
 	margin-bottom: 3px;
-	color: #777;
+	color: #aab1b8;
 }
 .awilo_fn_blog_list .title_wrapper .title_holder h3{
 	margin: 0;
@@ -1462,7 +1463,7 @@ a.awilo_fn_circle_link:hover:after{
 	}
 	.awilo_fn_blog_list .blog_item:hover .title_wrapper .b_arrow .awilo_fn_svg,
 	.awilo_fn_blog_list .blog_item:hover .title_wrapper .title_holder h3 a{
-		color: #ae45ff;
+		color: #efc152;
 	}
 	.awilo_fn_blog_list .blog_item:hover .b_counter{
 		transform: translate3d(0px,0px,0px) scale(0);
@@ -1523,7 +1524,7 @@ a.awilo_fn_circle_link:hover:after{
 	font-size: 18px;
 	letter-spacing: 0;
 	font-family: 'Muli';
-	color: #777;
+	color: #aab1b8;
 	background-color: transparent;
 	margin-bottom: 40px;
 }
@@ -1555,7 +1556,7 @@ a.awilo_fn_circle_link:hover:after{
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	color: #777;
+	color: #aab1b8;
 	font-family: 'Muli';
 	letter-spacing: 0;
 	font-weight: 400;
@@ -1660,9 +1661,9 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_footer p{
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
+	font-size: 1rem;
 	letter-spacing: -0.25px;
-	color: #eee;
+	color: #979fb1;
 	font-family: 'Muli';
 }
 /*---------------------------------------------------*/
@@ -1909,7 +1910,7 @@ a.awilo_fn_circle_link:hover:after{
 	position: absolute;
 	content: '';
 	left: 0;
-	background-color: #ae45ff;
+	background-color: #efc152;
 }
 .awilo_fn_partners .r_plus span:before{
 	width: 2px;
@@ -1919,7 +1920,7 @@ a.awilo_fn_circle_link:hover:after{
 	position: absolute;
 	content: '';
 	top: 0;
-	background-color: #ae45ff;
+	background-color: #efc152;
 }
 .awilo_fn_partners .r_item{
 	opacity: .3;
