@@ -1937,6 +1937,7 @@ a.awilo_fn_circle_link:hover:after{
 }
 #partners{
 	padding: 191px 0 195px 0;
+	overflow-x:hidden;
 }
 /*---------------------------------------------------*/
 /*	22) Responsive
