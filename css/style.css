@@ -159,6 +159,15 @@ a.awilo_fn_circle_link:hover:after{
     clear: both;
     float: left;
 }
+
+.logo {
+	padding:1rem;
+	background-color:rgba(0,0,0,0.5);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+	border-radius:2px;
+}
+
 .awilo_fn_sidebar_header .menu_logo{
 	padding: 60px;
 }
@@ -1582,6 +1591,30 @@ a.awilo_fn_circle_link:hover:after{
 #contact{
 	padding: 193px 0 181px 0;
 }
+
+input.button-form {
+	line-height:100%;
+	display:block;
+	float:left;
+	padding: 0 37px;
+	border: 2px solid #efc152;
+	background: none;
+	margin:0;
+	box-shadow:none;
+	color:#efc152;
+	font-size:1rem;
+	border-radius:2px;
+	text-decoration:none;
+	font-family: 'Muli';
+	position:relative;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+input.button-form:hover {
+	background: none;
+}
+
 /*---------------------------------------------------*/
 /*	16) Shortcode: Big List
 /*---------------------------------------------------*/
@@ -1590,7 +1623,8 @@ a.awilo_fn_circle_link:hover:after{
 	float: left;
 	clear: both;
 	padding: 211px 0;
-	background-color: #1e1427;
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(222,163,21,1) 100%);
 }
 .awilo_fn_big_text h3{
 	margin: 0;
@@ -1655,15 +1689,16 @@ a.awilo_fn_circle_link:hover:after{
 	clear: both;
 	padding: 66px 0;
 	position: relative;
-	background-color: #1e1427;
-	border-top: 1px solid rgba(255,255,255,.1);
+	background: #dea315;
+	border-top: 1px solid #dea315;
 }
 .awilo_fn_footer p{
 	margin: 0;
 	padding: 0;
 	font-size: 1rem;
+	font-weight:bold;
 	letter-spacing: -0.25px;
-	color: #979fb1;
+	color: #000000;
 	font-family: 'Muli';
 }
 /*---------------------------------------------------*/
@@ -1870,9 +1905,17 @@ a.awilo_fn_circle_link:hover:after{
 }
 .awilo_fn_partners .flip__back span{
 	font-family: 'Muli';
+	line-height:100%;
 	font-size: 18px;
 	color: #eee;
+	display:flex;
+	flex-direction: row;
 }
+.awilo_fn_partners .flip__back span svg {
+	display:flex;
+}
+
+
 
 .awilo_fn_partners .flip__wrapper:hover .flip__inner{
   transform: rotateY(180deg);
