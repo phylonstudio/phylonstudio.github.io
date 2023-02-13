@@ -2066,8 +2066,9 @@ input.button-form:hover {
 	.awilo_fn_blog_list .blog_item .b_counter{
 		display: none;
 	}
-	.awilo_fn_big_text{
+	.awilo_fn_big_text h3{
 			font-size: 3rem;
+			line-height: 125%;
 	}
 }
 @media(max-width: 768px){
