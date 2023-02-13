@@ -2066,6 +2066,9 @@ input.button-form:hover {
 	.awilo_fn_blog_list .blog_item .b_counter{
 		display: none;
 	}
+	.awilo_fn_big_text{
+			font-size: 3rem;
+	}
 }
 @media(max-width: 768px){
 	.awilo_fn_wrapper.opened .awilo_fn_content{
