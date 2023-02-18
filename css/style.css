@@ -1925,10 +1925,10 @@ input.button-form:hover {
 	opacity: 0;
 }
 .awilo_fn_partners .r_plus{
-	width: 50px;
-    height: 90px;
+	width: 64px;
+    height: 64px;
     display: block;
-    left: 46px;
+    left: 2rem;
     top: -16px;
     position: absolute;
     background-color: #1e1427;
@@ -1936,35 +1936,14 @@ input.button-form:hover {
     border-bottom-right-radius: 5px;
 	transition: all .3s ease;
 }
+
 .awilo_fn_partners .r_plus span{
-	display: block;
-	width: 16px;
-	height: 16px;
-	bottom: 16px;
-	left: 50%;
-	margin-left: -8px;
-	position: absolute;
+	font-size:0.725rem;
+	position:relative;
+	top:1.25rem;
+
 }
-.awilo_fn_partners .r_plus span:after{
-	width: 16px;
-	height: 2px;
-	top: 50%;
-	margin-top: -1px;
-	position: absolute;
-	content: '';
-	left: 0;
-	background-color: #efc152;
-}
-.awilo_fn_partners .r_plus span:before{
-	width: 2px;
-	height: 16px;
-	left: 50%;
-	margin-left: -1px;
-	position: absolute;
-	content: '';
-	top: 0;
-	background-color: #efc152;
-}
+
 .awilo_fn_partners .r_item{
 	opacity: .3;
 	transition: all .5s ease;
